@@ -13,12 +13,14 @@
     <header class="header">
         <nav class="nav">
             <div class="nombre">
-                <img src="" alt="home">
-                <h1>Tomás <span class="resaltado">Mariqueo</span></h1>
+                <a href="#inicio" class="logo">
+                    <img src="static/img/logo.png" alt="Icono de Inicio">
+                    <span>Tomás <span class="resaltado">Mariqueo</span></span>
+                </a>
             </div>
-            <div class="links">
+            <div class="nav-links">
                 <a href="#inicio" class="link">Inicio</a>
-                <a href="#sobreMi" class="link">Sobre mi</a>
+                <a href="#sobre-mi" class="link">Sobre mí</a>
                 <a href="#habilidades" class="link">Habilidades</a>
                 <a href="#experiencias" class="link">Experiencias</a>
                 <a href="#proyectos" class="link">Proyectos</a>
@@ -26,69 +28,141 @@
             </div>
         </nav>
     </header>
+
     <main class="main">
-        <div class="portada" id="inicio"></div>
-        <div class="tarjeta presentacion" id="sobreMi">
-            <h1>Sobre mi</h1>
-            <div class="texto">
-                <p>
-                    Soy estudiante en Técnico Programación graduado en Front-end proveniente de Santiago de chile,
-                    descubrí mi interés en los computadores desde niño y hasta el dia de hoy sigo estudiando para
-                    poder mejorar más en mis capacidades en programación.
-                </p>
-            </div>
-            <div class="contenedor">
-                <img src="" alt="">
+
+        <div class="portada" id="inicio">
+            <div class="hero-contenido">
+                <h1>Hola, soy <span class="resaltado">Tomás Mariqueo</span></h1>
+                <p class="subtitulo">Estudiante de Técnico en Programación & Desarrollador Front-end</p>
+                <div class="hero-botones">
+                    <a href="#proyectos" class="btn btn-primario">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-secundario">Contáctame</a>
+                </div>
             </div>
         </div>
+
+        <div class="tarjeta presentacion" id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="contenido-grid">
+                <div class="texto">
+                    <p>
+                        Soy estudiante de Técnico en Programación y graduado en Front-end, proveniente de Santiago de
+                        Chile.
+                        Descubrí mi interés por la tecnología desde niño y, hasta el día de hoy, sigo estudiando y
+                        practicando
+                        para potenciar mis habilidades en el desarrollo web.
+                    </p>
+                </div>
+                <div class="contenedor-imagen">
+                    <img src="static/img/perfil.jpg" alt="Fotografía de Tomás Mariqueo">
+                </div>
+            </div>
+        </div>
+
         <div class="tarjeta capacidades" id="habilidades">
-            <h1>Mis Habilidades/Conocimientos</h1>
-            <div class="texto2">
-                <p>
-                    Me especializo principalmente en desarrollo y diseño en páginas web.<br>
-                    Tengo conocimientos en HTML5, CSS, JavaScript y GitHub gracias a mis estudios y experiencia con
-                    <span class="skillNest">Skillnest</span>.
-                    Soy alguien que principalmente se le da mejor el campo centrado a la estructrura
-                    <span class="html">HTML5</span>, pero también tengo experiencia relacionada al CSS y a JavaScript.
-                </p>
-            </div>
-        </div>
-        <div class="tarjeta experiencia" id="experiencias">
-            <h1>Experiencias</h1>
+            <h2>Mis Habilidades / Conocimientos</h2>
             <div class="texto">
                 <p>
-                    En el pásado fuí participe en la Feria Técnico Profesional (Feria TP) del Liceo comercial: "Vate
-                    Vicente Huidobro".
-                    En esa misma feria estuve trabajando con mi grupo de nombre: "EcoloChile" en donde desarrollamos una
-                    aplicación web
-                    relacionada a la recolección de basura, yo fuí el encargado de desarrollar la página web informativa
-                    para dar toda
-                    la información relacionada a nuestro proyecto.
-                </p>
-                <p>
-                    Aquí mismo les dejaré el link a la página para que puedan verla por si mismos:
-                    <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/">EcoloChile</a>
+                    Me especializo principalmente en desarrollo y diseño de páginas web.<br>
+                    Tengo conocimientos en <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> y
+                    <strong>GitHub</strong> gracias a mis estudios y experiencia con <span
+                        class="skillNest">Skillnest</span>.
+                    Mi fuerte principal es la maquetación y estructura en HTML5, complementado con diseño dinámico en
+                    CSS e interactividad básica con JavaScript.
                 </p>
             </div>
+
+            <div class="grid-habilidades">
+                <article class="habilidad-card">
+                    <h3>HTML5</h3>
+                    <p>Estructuración semántica, limpia y accesible.</p>
+                </article>
+                <article class="habilidad-card">
+                    <h3>CSS3</h3>
+                    <p>Diseño adaptativo (Responsive Design), Flexbox y CSS Grid.</p>
+                </article>
+                <article class="habilidad-card">
+                    <h3>JavaScript</h3>
+                    <p>Lógica de programación, manipulación del DOM y eventos.</p>
+                </article>
+                <article class="habilidad-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Control de versiones y publicación de sitios en GitHub Pages.</p>
+                </article>
+            </div>
         </div>
-        <div class="tarjeta trabajos" id="proyectos"></div>
-        <div class="tarjeta contactos" id="contacto"></div>
-        <footer class="footer">
-            <nav class="nav">
-                <div class="derechos">
-                    
-                </div>
-                <div class="links">
-                    <a href="#inicio" class="link">Inicio</a>
-                    <a href="#sobreMi" class="link">Sobre mi</a>
-                    <a href="#habilidades" class="link">Habilidades</a>
-                    <a href="#experiencias" class="link">Experiencias</a>
-                    <a href="#proyectos" class="link">Proyectos</a>
-                    <a href="#contacto" class="link">Contacto</a>
-                </div>
-            </nav>
-        </footer>
+
+        <div class="tarjeta experiencia" id="experiencias">
+            <h2>Experiencias</h2>
+            <div class="texto">
+                <article class="experiencia-item">
+                    <h3>Feria Técnico Profesional (Feria TP)</h3>
+                    <p class="institucion">Liceo Comercial Vate Vicente Huidobro</p>
+                    <p>
+                        Participé en la feria junto a mi equipo de trabajo <strong>"EcoloChile"</strong>, donde
+                        desarrollamos una aplicación web enfada en la recolección de basura.
+                        Fui el encargado de diseñar y desarrollar la página web informativa para presentar los detalles
+                        y propuesta de nuestro proyecto.
+                    </p>
+                    <div class="pagina">
+                        <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank"
+                            rel="noopener noreferrer" class="link-proyecto">Ver Proyecto EcoloChile</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="tarjeta trabajos" id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="grid-proyectos">
+                <article class="proyecto-card">
+                    <img src="static/img/ecolochile-preview.jpg" alt="Captura de pantalla de la web EcoloChile">
+                    <h3>EcoloChile</h3>
+                    <p>Página web informativa orientada a la concientización sobre el reciclaje y recolección de
+                        residuos.</p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>GitHub Pages</span>
+                    </div>
+                    <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank" rel="noopener noreferrer"
+                        class="btn">Visitar Proyecto</a>
+                </article>
+            </div>
+        </div>
+
+        <div class="tarjeta contactos" id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Te interesa mi trabajo o quieres ponerte en contacto conmigo? ¡Escríbeme!</p>
+            <div class="contacto-info">
+                <ul>
+                    <li><strong>Ubicación:</strong> Santiago, Chile</li>
+                    <li><strong>Correo:</strong> <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/tomasmariqueo-vvh" target="_blank"
+                            rel="noopener noreferrer">github.com/tomasmariqueo-vvh</a></li>
+                </ul>
+            </div>
+        </div>
+
     </main>
+
+    <footer class="footer">
+        <nav class="nav-footer">
+            <div class="derechos">
+                <p>&copy; 2026 Tomás Mariqueo. Todos los derechos reservados.</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="link">Sobre mí</a></li>
+                <li><a href="#habilidades" class="link">Habilidades</a></li>
+                <li><a href="#experiencias" class="link">Experiencias</a></li>
+                <li><a href="#proyectos" class="link">Proyectos</a></li>
+                <li><a href="#contacto" class="link">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+
     <script src="static/js/script.js"></script>
 </body>
 

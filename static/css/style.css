@@ -5,3 +5,18 @@
     outline: solid 1px red;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
