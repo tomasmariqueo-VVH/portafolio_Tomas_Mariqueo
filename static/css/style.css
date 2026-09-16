@@ -21,26 +21,77 @@ body {
     display: flex;
     position: fixed;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(255, 183, 49);
+    justify-content: space-around;
+    background-color: rgb(32, 32, 32);
     width: 100%;
-    padding: 1%;
+    height: 10%;
+    max-width: 1300px;
+    padding: 0.5%;
 }
 
-.nombre{
+.nombre {
     display: flex;
+    margin-top: 0.5%;
+    flex: 1;
 }
 
-.nombre a{
+.nombre a {
     text-decoration: none;
     color: white;
 }
 
-.logo{
+.logo {
     display: flex;
     flex-direction: row;
 }
 
-.nav-links a{
-text-decoration: none;
+.contenedor_img {
+    display: flex;
+    flex: 1;
+    width: 100%;
+
+}
+
+.contenedor_img img {
+    width: 100%;
+}
+
+.contenedor_nombre {
+    display: flex;
+    flex: 3;
+}
+
+.contenedor_nombre h1 {
+    color: white;
+}
+
+.resaltado {
+    color: orange;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    flex: 1;
+}
+
+.link {
+    background-color: rgb(32, 32, 32);
+    border: none;
+    margin-left: 2%;
+    flex: 1;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s ease;
+    font-size: large
+}
+
+.nav-links a :hover {
+    color: orange;
+    background-color: black;
+    transform: scale(1.2);
 }
