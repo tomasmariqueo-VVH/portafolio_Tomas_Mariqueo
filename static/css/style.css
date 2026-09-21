@@ -101,15 +101,16 @@ body {
     transform: scale(1.5);
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
-    margin-top: 4.7%;
+    margin-top: 4.5%;
     text-align: center;
     gap: 50px;
+    background-color: bisque;
 }
 
-.portada{
+.portada {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -120,8 +121,96 @@ body {
     background-color: orange;
 }
 
-.portada-contenido{
+.portada-contenido {
     display: flex;
     flex-direction: column;
     gap: 10%;
+    color: white;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.tarjeta h2 {
+    margin-bottom: 1%;
+}
+
+.contenido-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.texto {
+    flex: 6;
+    padding: 2%;
+    outline: solid 3px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.texto p {
+    font-size: 100%;
+}
+
+.contenedor-imagen {
+    flex: 2;
+    padding: 2%;
+    width: auto;
+    border-radius: 10px;
+    outline: solid 3px rgb(189, 189, 189);
+    background-color: white;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
+
+.grid-habilidades{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    gap: 1%;
+    transition: transform 0.3s ease;
+}
+
+.habilidad-card{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    outline: solid 2px gray;
+}
+
+.grid-habilidades :hover{
+    transform: scale(1.1);
+}
+
+.contenido-experiencias{
+    display: flex;
+    flex-direction:row;
+    gap: 5%;
+}
+
+.institucion{
+    margin: 1%;
+    color: crimson;
+}
+
+.grid-proyectos{
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto-card{
+    background-color: white;
+    padding: 1%;
+    outline: solid 3px gray;
+    border-radius: 10px;
+}
+.contenedor-proyecto{
+    border-radius: 10px;
+    outline: solid 1px ;
 }

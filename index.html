@@ -54,19 +54,16 @@
 
         <div class="portada" id="inicio">
             <div class="portada-contenido">
-                <div class="imagen-perfil">
-                    <img src="" alt="imagen de perfil">
-                </div>
                 <h1>Hola, soy Tomás Mariqueo</h1>
                 <p class="subtitulo">Estudiante de Técnico en Programación & Desarrollador Front-end</p>
                 <div class="portada-botones">
-                    <a href="#proyectos" class="btn btn-primario">Ver Proyectos</a>
-                    <a href="#contacto" class="btn btn-secundario">Contáctame</a>
+                    <a href="#proyectos">Ver Proyectos</a>
+                    <a href="#contacto">Contáctame</a>
                 </div>
             </div>
         </div>
 
-        <div class="tarjeta presentacion" id="sobre-mi">
+        <div class="tarjeta" id="sobre-mi">
             <h2>Sobre mí</h2>
             <div class="contenido-grid">
                 <div class="texto">
@@ -84,7 +81,7 @@
             </div>
         </div>
 
-        <div class="tarjeta capacidades" id="habilidades">
+        <div class="tarjeta" id="habilidades">
             <h2>Mis Habilidades / Conocimientos</h2>
             <div class="texto">
                 <p>
@@ -98,29 +95,29 @@
             </div>
 
             <div class="grid-habilidades">
-                <article class="habilidad-card">
+                <div class="habilidad-card">
                     <h3>HTML5</h3>
                     <p>Estructuración semántica, limpia y accesible.</p>
-                </article>
-                <article class="habilidad-card">
+                </div>
+                <div class="habilidad-card">
                     <h3>CSS3</h3>
                     <p>Diseño adaptativo (Responsive Design), Flexbox y CSS Grid.</p>
-                </article>
-                <article class="habilidad-card">
+                </div>
+                <div class="habilidad-card">
                     <h3>JavaScript</h3>
                     <p>Lógica de programación, manipulación del DOM y eventos.</p>
-                </article>
-                <article class="habilidad-card">
+                </div>
+                <div class="habilidad-card">
                     <h3>Git & GitHub</h3>
                     <p>Control de versiones y publicación de sitios en GitHub Pages.</p>
-                </article>
+                </div>
             </div>
         </div>
 
-        <div class="tarjeta experiencia" id="experiencias">
+        <div class="tarjeta" id="experiencias">
             <h2>Experiencias</h2>
-            <div class="texto">
-                <article class="experiencia-item">
+            <div class="contenido-experiencias">
+                <div class="texto">
                     <h3>Feria Técnico Profesional (Feria TP)</h3>
                     <p class="institucion">Liceo Comercial Vate Vicente Huidobro</p>
                     <p>
@@ -132,32 +129,41 @@
                     </p>
                     <div class="pagina">
                         <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank"
-                            rel="noopener noreferrer" class="link-proyecto">Ver Proyecto EcoloChile</a>
+                            rel="noopener noreferrer" class="link-proyecto">Ver Proyecto EcoloChile
+                        </a>
                     </div>
-                </article>
+                </div>
+                <div class="contenedor-imagen">
+                    <img src="" alt="imagen-ecolochile">
+                </div>
             </div>
+
         </div>
 
-        <div class="tarjeta trabajos" id="proyectos">
+        <div class="tarjeta" id="proyectos">
             <h2>Proyectos Destacados</h2>
             <div class="grid-proyectos">
-                <article class="proyecto-card">
-                    <img src="static/img/ecolochile-preview.jpg" alt="Captura de pantalla de la web EcoloChile">
+                <div class="proyecto-card">
+                    <div class="contenedor-proyecto">
+                        <img src="" alt="Captura de pantalla de la web EcoloChile">
+                    </div>
                     <h3>EcoloChile</h3>
-                    <p>Página web informativa orientada a la concientización sobre el reciclaje y recolección de
-                        residuos.</p>
+                    <p>
+                        Página web informativa orientada a la concientización sobre el reciclaje y recolección de
+                        residuos.
+                    </p>
                     <div class="tags">
                         <span>HTML5</span>
                         <span>CSS3</span>
                         <span>GitHub Pages</span>
                     </div>
-                    <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank" rel="noopener noreferrer"
-                        class="btn">Visitar Proyecto</a>
-                </article>
+                    <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank"
+                        rel="noopener noreferrer">Visitar Proyecto</a>
+                </div>
             </div>
         </div>
 
-        <div class="tarjeta contactos" id="contacto">
+        <div class="tarjeta" id="contacto">
             <h2>Contacto</h2>
             <p>¿Te interesa mi trabajo o quieres ponerte en contacto conmigo? ¡Escríbeme!</p>
             <div class="contacto-info">
