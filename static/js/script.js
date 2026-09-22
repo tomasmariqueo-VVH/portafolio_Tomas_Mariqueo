@@ -1,5 +1,7 @@
 console.log("Conexión con JS correcta...")
 
+console.log("Conexión con JS correcta...")
+
 document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
     // 1. MANEJO DEL FORMULARIO DE CONTACTO

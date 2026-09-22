@@ -232,6 +232,12 @@ body {
     justify-content: space-between;
 }
 
+.lasExperiencias{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
 .texto {
     flex: 1 1 300px;
     padding: 20px;
@@ -250,7 +256,7 @@ body {
     border-left: 4px solid var(--rojo);
     text-align: left;
     line-height: 1.6;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .texto2 {
@@ -261,7 +267,7 @@ body {
     border-left: 4px solid var(--rojo);
     text-align: left;
     line-height: 1.6;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .skillNest {

@@ -47,21 +47,10 @@
                 <p class="subtitulo">Estudiante de Técnico en Programación & Desarrollador Front-end</p>
                 <div class="portada-botones">
                     <a href="#proyectos">Ver Proyectos</a>
-                    <a href="#contacto">Contáctame.</a>
+                    <a href="#contacto">Contáctame</a>
                 </div>
             </div>
         </div>
-
-        <!-- NUEVA SECCIÓN: VIDEO DE PRESENTACIÓN -->
-        <section class="tarjeta" id="video-seccion">
-            <h2>Video de Presentación</h2>
-            <div class="contenedor-video">
-                <video controls poster="static/img/perfil.jpg">
-                    <source src="static/video/presentacion.mp4" type="video/mp4">
-                    Tu navegador no soporta la reproducción de video.
-                </video>
-            </div>
-        </section>
 
         <!-- SOBRE MÍ -->
         <div class="tarjeta" id="sobre-mi">
@@ -85,15 +74,22 @@
         <!-- HABILIDADES -->
         <div class="tarjeta" id="habilidades">
             <h2>Mis Habilidades / Conocimientos</h2>
-            <div class="texto1">
-                <p>
-                    Me especializo principalmente en desarrollo y diseño de páginas web.<br>
-                    Tengo conocimientos en <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> y
-                    <strong>GitHub</strong> gracias a mis estudios y experiencia con <span
-                        class="skillNest">Skillnest</span>.
-                    Mi fuerte principal es la maquetación y estructura en HTML5, complementado con diseño dinámico en
-                    CSS e interactividad básica con JavaScript.
-                </p>
+            <div class="lasExperiencias">
+                <div class="texto1">
+                    <p>
+                        Me especializo principalmente en desarrollo y diseño de páginas web.<br>
+                        Tengo conocimientos en <strong>HTML5</strong>, <strong>CSS3</strong>,
+                        <strong>JavaScript</strong> y
+                        <strong>GitHub</strong> gracias a mis estudios y experiencia con <span
+                            class="skillNest">Skillnest</span>.
+                        Mi fuerte principal es la maquetación y estructura en HTML5, complementado con diseño dinámico
+                        en
+                        CSS e interactividad básica con JavaScript.
+                    </p>
+                </div>
+                <div class="contenedor-imagen">
+                    <img src="static/images/programas.png" alt="Programas de trabajo">
+                </div>
             </div>
 
             <div class="grid-habilidades">
@@ -116,27 +112,74 @@
             </div>
         </div>
 
+        <section class="tarjeta" id="video-seccion">
+            <h2>Video informativo</h2>
+            <div class="contenedor-video">
+                <video controls poster="static/images/Skillnest.png">
+                    <source src="static/videos/video_explicativo_skillnest.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </section>
+
         <!-- EXPERIENCIAS -->
         <div class="tarjeta" id="experiencias">
             <h2>Experiencias</h2>
             <div class="contenido-experiencias">
-                <div class="texto">
-                    <h3>Feria Técnico Profesional (Feria TP)</h3>
-                    <p class="institucion">Liceo Comercial Vate Vicente Huidobro</p>
-                    <p>
-                        Participé en la feria junto a mi equipo de trabajo <strong>"EcoloChile"</strong> como Co-líder,
-                        donde desarrollamos una aplicación web enfocada en la recolección de basura.
-                        Fui el encargado de diseñar y desarrollar la página web informativa para presentar los detalles
-                        y propuesta de nuestro proyecto de manera más específica.
-                    </p>
-                    <div class="pagina">
-                        <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank"
-                            rel="noopener noreferrer" class="link-proyecto">Ver Proyecto EcoloChile
-                        </a>
+                <div class="lasExperiencias">
+                    <div class="texto">
+                        <h3>Feria Técnico Profesional (Feria TP)</h3>
+                        <p class="institucion">Liceo Comercial Vate Vicente Huidobro</p>
+                        <p>
+                            Participé en la feria junto a mi equipo de trabajo <strong>"EcoloChile"</strong> como
+                            Co-líder,
+                            donde desarrollamos una aplicación web enfocada en la recolección de basura.
+                            Fui el encargado de diseñar y desarrollar la página web informativa para presentar los
+                            detalles
+                            y propuesta de nuestro proyecto de manera más específica.
+                        </p>
+                        <div class="pagina">
+                            <a href="https://tomasmariqueo-vvh.github.io/EcoloChile/" target="_blank"
+                                rel="noopener noreferrer" class="link-proyecto">Ver Proyecto EcoloChile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contenedor-imagen">
+                        <img src="static/images/Logo.png" alt="Imagen EcoloChile">
                     </div>
                 </div>
-                <div class="contenedor-imagen">
-                    <img src="static/images/Logo.png" alt="Imagen EcoloChile">
+                <div class="lasExperiencias">
+                    <div class="texto">
+                        <h3>Curso de Skillnest Front-end Jr.</h3>
+                        <p class="institucion">Liceo Comercial Vate Vicente Huidobro</p>
+                        <p>
+                            Aquí en <strong>Skillnest</strong> es donde aprendí todos los
+                            fundamentos básicos de la programación y sobre como diseñar las páginas web.
+                        </p>
+                        <div class="pagina">
+                            <p class="link-proyecto">Finalizado</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-imagen">
+                        <img src="static/images/Skillnest.png" alt="Logo Skillnest">
+                    </div>
+                </div>
+                <div class="lasExperiencias">
+                    <div class="texto">
+                        <h3>Fundamentos de diseño UX/UI con herramientas de IA</h3>
+                        <p class="institucion">Liceo Comercial Vate Vicente Huidobro</p>
+                        <p>
+                            Proximamente nos enfocaremos en los fundamentos de diseño UX/UI
+                            centrados en marketing digital, ventas online, automatización de procesos, diseño UX/UI
+                            y herramientas de inteligencia artificial.
+                        </p>
+                        <div class="pagina">
+                            <p class="link-proyecto">Proximamente</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-imagen">
+                        <img src="static/images/IA.png" alt="UX/UI">
+                    </div>
                 </div>
             </div>
         </div>
